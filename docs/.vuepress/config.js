@@ -8,8 +8,6 @@ module.exports = {
           href: `/favicon.ico`
       }]
   ],
-  dest: 'public',
-  ga: '',
   evergreen: true,
   themeConfig: {
     logo: '/favicon.ico',
