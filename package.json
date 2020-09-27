@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.6.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "name": "easy4j-doc",
+  "version": "0.5.0.RELEASE",
+  "main": "index.js",
+  "repository": "https://github.com/yang-cruise/easy4j.git",
+  "author": "yangzongmin <yang_cruise@126.com>",
+  "license": "Apache-2.0 License"
+}
