@@ -17,8 +17,7 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/' },
       { text: '服务端', link: '/server/' },
-      { text: '客户端', link: '/client/' },
-      { text: 'GitHub', link: 'https://github.com/yang-cruise/easy4j' },
+      { text: '客户端', link: '/client/' }
     ],
     lastUpdated: 'Last Updated',
     repo: 'yang-cruise/easy4j',
