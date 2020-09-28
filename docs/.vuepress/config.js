@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/easy4j-doc/',
+  base: '/',
   title: 'Easy4j',
   description: '简单，美。',
   head: [
@@ -15,34 +15,17 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/' },
       { text: '服务端', link: '/server/' },
-      { text: '客户端', link: '/client/' }
+      { text: '客户端', link: '/client/' },
+      { text: '演示系统', link: 'http://admin.easy4j.cn' }
     ],
     lastUpdated: 'Last Updated',
     repo: 'yang-cruise/easy4j',
-    docsRepo: 'vuejs/vuepress',
+    docsRepo: 'yang-cruise/easy4j-doc',
     docsDir: 'docs',
+    docsBranch: 'master',
     editLinks: true,
     editLinkText: '帮助我们改善此页面！',
     sidebarDepth: 2,
-    sidebar: {
-      '/guide/': [
-        {
-          collapsable: false,
-          children: ['']
-        }
-      ],
-      '/server/': [
-        {
-          collapsable: false,
-          children: ['', 'module', 'config', 'api', 'trick']
-        }
-      ],
-      '/client/': [
-        {
-          collapsable: false,
-          children: ['', 'components', 'api', 'trick']
-        }
-      ]
-    }
+    sidebar: 'auto'
   }
 }
