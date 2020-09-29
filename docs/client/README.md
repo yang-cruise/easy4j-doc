@@ -1,7 +1,7 @@
 # 客户端
 
 ## 简介
-此项目基于 [ant-design-vue-pro](https://pro.antdv.com/) 开发，除 `easy4j` 自定义组件外，其余请参考 [官方文档](https://pro.antdv.com/components/avatar-list)
+`Easy4J` 客户端基于 [ant-design-vue-pro](https://pro.antdv.com/) 开发，除 `Easy4J` 自定义封装的组件外，其余请参考 [官方文档](https://pro.antdv.com/components/avatar-list)
 
 ## 目录结构
 本项目采用文件自动生成路由数据，无需前端再次编写路由文件。所以必须遵循项目中的目录结构。

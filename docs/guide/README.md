@@ -1,15 +1,13 @@
-# Easy4j
+# Easy4J
 
 ## 简介
-`Easy4j` 是在 `Spring Boot 2.x` 基础上开发的脚手架，我们严格遵守[《Java开发手册》](https://yq.aliyun.com/articles/756359?spm=a2c4e.11163080.searchblog.16.32fb2ec14h1tve)的编码规范，代码简洁易读。
-
-体验后台管理系统请点击：[admin.easy4j.cn](http://admin.easy4j.cn)
+`Easy4J` 是在 `Spring Boot 2.x` 基础上开发的脚手架，你可以单独依赖Java后端项目，也可以配合前端项目一起快速搭建一个后台管理系统。
 
 ## 愿景
 我们的愿景是让Java开发更简单，就像项目名称一样：`Easy for Java.`
 
 ## 快速开始
-以下步骤将带你快速搭建一个 `easy4j` 的项目，当然你也可以直接查看 [示例项目](https://github.com/yang-cruise/easy4j/tree/master/easy4j-sample)
+以下步骤将带你快速搭建一个 `Easy4J` 的项目，你也可以直接查看 [示例项目](https://github.com/yang-cruise/easy4j/tree/master/easy4j-sample)
 
 ### 1. 初始化工程
 创建一个空的 Spring Boot 工程
@@ -62,4 +60,4 @@ npm run dev
 ```
 
 ### 7. 开始体验
-现在可以访问 [本地环境](http://localhost:8080/) 体验 `easy4j` 为你提供的基础功能了
+现在可以访问 [本地环境](http://localhost:8080/) 体验 `Easy4J` 为你提供的基础功能了

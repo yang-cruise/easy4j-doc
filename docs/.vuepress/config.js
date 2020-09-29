@@ -1,6 +1,6 @@
 module.exports = {
   base: '/',
-  title: 'Easy4j',
+  title: 'Easy4J',
   description: '简单，美。',
   head: [
       ['link', {
