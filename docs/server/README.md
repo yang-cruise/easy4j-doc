@@ -29,7 +29,7 @@
 
 
 ### 自动创建数据表
-`Easy4J` 实现了自动创建表结构的功能，所有当你引用 `easy4j-admin-spring-boot-starter` 等模块后，框架会自动创建所需要的表结构及初始数据，省去手动执行SQL脚本的麻烦。详情可查看源码 [DbInitializerListener.java](https://github.com/yang-cruise/easy4j/blob/master/easy4j-parent/easy4j-spring-boot-starter/src/main/java/cn/easy4j/framework/db/DbInitializerListener.java)
+`Easy4J` 实现了自动创建表结构的功能，所以当你依赖 `easy4j-admin-spring-boot-starter` 等模块后，框架会自动创建所需要的表结构及初始数据，省去手动执行SQL脚本的麻烦。详情可查看源码 [DbInitializerListener.java](https://github.com/yang-cruise/easy4j/blob/master/easy4j-parent/easy4j-spring-boot-starter/src/main/java/cn/easy4j/framework/db/DbInitializerListener.java)
 
 
 
@@ -250,14 +250,6 @@ easy4j:
 
 在返回给前端的接口中，给属性添加 `@JsonDictConvert` 注解，可以在接口响应序列化时自动将值转换为文本，并在响应的json中增加 `xxxText` 字段。
 
-```xml
-<dependency>
-    <groupId>cn.easy4j</groupId>
-    <artifactId>easy4j-dict-spring-boot-starter</artifactId>
-    <version>${easy4j.version}</version>
-</dependency>
-```
-
 
 
 | 参数       | 类型   | 必填 | 说明                                               |
@@ -270,7 +262,7 @@ easy4j:
 public class SysUserVO {
     @JsonDictConvert(code = "sys_user.sex")
     @ApiModelProperty(value = "性别 1男  2女")
-    private String sex;
+    private Integer sex;
 }
 
 // 响应json
